@@ -42,6 +42,11 @@ function definePaleta(cor){
     listaAtividades.style.background = cor;
 }
 
+function limpaListaAtividade(){
+    while(listaAtividades.firstChild){
+        listaAtividades.removeChild(listaAtividades.firstElementChild);
+    }
+}
 
 
 function limpaInput(){
