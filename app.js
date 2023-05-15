@@ -43,7 +43,7 @@ function definePaleta(cor){
 }
 
 function limpaListaAtividade(){
-    while(listaAtividades.firstChild){
+    while(listaAtividades.firstElementChild){
         listaAtividades.removeChild(listaAtividades.firstElementChild);
     }
 }
