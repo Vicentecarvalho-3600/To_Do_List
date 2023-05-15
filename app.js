@@ -8,6 +8,7 @@ const botaoCadastra = document.querySelector(".botao_adc");
 const paleta1 = document.querySelector("#paleta1");
 const paleta2 = document.querySelector("#paleta2");
 const paleta3 = document.querySelector("#paleta3");
+let cor;
 
 // console.log(container, listaAtividades, input, erro, botaoCadastra, paleta1, paleta2, paleta3);
 
@@ -34,6 +35,11 @@ function cadastraAtividade(){
         erro.innerHTML = `${input.value} não é uma atividade válida!`
     }
     limpaInput();
+}
+
+function definePaleta(cor){
+    container.style.background = cor;
+    listaAtividades.style.background = cor;
 }
 
 

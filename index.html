@@ -11,14 +11,14 @@
         <div class="caixa">
             <h1 class="titulo">TO DO LIST</h1>
             <div class="paletas_div">
-                <div id="paleta1" class="paleta"></div>
-                <div id="paleta2" class="paleta"></div>
-                <div id="paleta3" class="paleta"></div>
+                <div id="paleta1" onclick= "definePaleta('seagreen')" class="paleta"></div>
+                <div id="paleta2" onclick="definePaleta('slateblue')" class="paleta"></div>
+                <div id="paleta3" onclick="definePaleta('tomato')" class="paleta"></div>
             </div>
             <p class="erro"></p>
             <div class="input_div">
                 <input class="input" type="text" placeholder="Digite uma atividade">
-                <button class="botao_adc" onclick=cadastraAtividade()>+</button>
+                <button class="botao_adc" onclick ="cadastraAtividade()">+</button>
             </div>
             <div class="lista_atividades">
                 
